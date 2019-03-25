@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nfqtest-tuan/precache-manifest.d3b9fb362f4ac96a81063c4ec4207c5b.js"
+  "/nfqtest/precache-manifest.44fbf9c80f70882a6931c9c71f81d44f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/nfqtest-tuan/index.html", {
+workbox.routing.registerNavigationRoute("/nfqtest/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
